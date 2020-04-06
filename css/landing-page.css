@@ -14,7 +14,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
 }
 
@@ -69,8 +69,8 @@ header.masthead h2 {
 }
 
 .features-icons {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 .features-icons .features-icons-item {
@@ -124,6 +124,10 @@ header.masthead h2 {
   opacity: 0.3;
 }
 
+.call-to-action h2 {
+  font-size: 1rem;
+}
+
 footer.footer {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -131,10 +135,10 @@ footer.footer {
 
 
 .button {
-  background-color: #00D2C3; 
-  border: none;
+  background-color: transparent; 
+  border: 1px color=white;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 16px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
